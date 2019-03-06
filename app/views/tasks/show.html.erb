@@ -6,6 +6,9 @@
 <p>
 <%= @task.content %>
 </p>
+<p>
+[<%= @task.status %>]
+</p>
 
 <%= link_to 'タスク一覧に戻る', tasks_path %>
 <%= link_to 'タスクを編集する', edit_task_path %>
